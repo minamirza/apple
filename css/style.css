@@ -1,0 +1,98 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f2f2f2;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.header .logo {
+    font-size: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    font: 550 11px arial;
+    line-height: 80%;
+    color: black;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.header .nav-icon {
+    font-size: 100%;
+    gap: 20px;
+}
+
+.header-slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.slider-content {
+    text-align: center;
+    font: 500 16px arial;
+    color: black;
+
+    p {
+        color: rgb(191, 72, 0);
+        font: 400 11px arial;
+    }
+}
+
+.slider-content:hover {
+    cursor: pointer;
+}
+
+.section-iphone {
+    height: 80px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+
+    h2 {
+        font: 500 20px arial;
+    }
+
+    p {
+        font: 400 16px arial;
+    }
+
+    i {
+        padding: 0 5px;
+    }
+}
+
+.shop-iphone {
+    padding: 10px 0;
+    gap: 20px;
+    text-align: center;
+    font: 500 16px arial;
+    color: rgb(0, 113, 227);
+}
