@@ -52,8 +52,12 @@
 
 .slider-content {
     text-align: center;
-    font: 500 16px arial;
-    color: black;
+
+    h3 {
+        font: 500 16px arial;
+        color: black;
+        
+    }
 
     p {
         color: rgb(191, 72, 0);
@@ -241,4 +245,15 @@
 .love-prcs-img img {
     height: 100vh;
     width: 400px;
+}
+
+.part-fivefalan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applebg12 {
+    background: url("../img/applebg12.jpeg") center / cover no-repeat;
+    height: 100vh;
 }
