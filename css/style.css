@@ -296,3 +296,60 @@
     border-radius: 15px;
     font-size: 0.8em;
 }
+
+.which-iphone {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.which-iphone-head h1 {
+    font: 700 48px Arial;
+    color: black;
+    padding: 35px 0;
+    text-align: center;
+}
+/*.phonecard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font: 400 13px arial;
+        color: black;
+        padding: 10px 0;
+    }
+}
+
+.phone-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font: 400 13px arial;
+        color: black;
+        padding: 10px 0;
+    }
+}
+
+.phone-about img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+}*/
