@@ -203,17 +203,29 @@
 
 .newphoria-content button:hover {
     cursor: pointer;
-    box-shadow: 2px 2px 5px white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.loveiphone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .love-iphone {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fbfbfb;
 }
 
 .love-iphone-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 
     p {
@@ -247,8 +259,30 @@
     transition: all 0.3s;
 }
 
+.love-iphone-content button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.which-iphone button {
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(0, 113, 227);
+    font-size: 0.8em;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin: 10px 0;
+    transition: all 0.3s;
+}
+
+.which-iphone button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
 .love-prcs-img img {
-    height: 100vh;
+    height: 100%;
     width: 400px;
 }
 
@@ -269,18 +303,18 @@
 
 .applebg12-content {
     position: absolute;
-    top: 50%;
-    left: 90px;
+    top: 45%;
+    left: 20%;
     width: 300px;
     height: 100px;
 
     p {
-        font: 600 22px Arial;
+        font: 600 25px Arial;
         color: white;
     }
 
     h2 {
-        font: 500 40px Arial;
+        font: 500 42px Arial;
         margin: 20px 0;
         color: white;
     }
@@ -295,61 +329,96 @@
     border: none;
     border-radius: 15px;
     font-size: 0.8em;
+    transition: 0.3s;
+}
+
+.applebg12-content button:hover {
+    cursor: pointer;
+    background: #fff;
 }
 
 .which-iphone {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
 }
+
 .which-iphone-head h1 {
     font: 700 48px Arial;
     color: black;
     padding: 35px 0;
     text-align: center;
 }
-/*.phonecard {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
 
-    p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        font: 400 13px arial;
-        color: black;
-        padding: 10px 0;
-    }
+#phonecard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-.phone-about {
+.phonecard {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 200px;
-
-    p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        font: 400 13px arial;
-        color: black;
-        padding: 10px 0;
-    }
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    text-align: center;
 }
 
-.phone-about img {
+.phone-content h2 {
+    text-align: center;
+    font: 600 20px arial;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.phone-content p {
+    text-align: center;
+    font: 500 18px arial;
+    color: black;
+    padding: 10px 0;
+}
+
+.phoneimg {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 50px;
-    height: 50px;
-}*/
+    padding: 10px 0;
+    gap: 15px;
+}
+
+.color-img1 {
+    width: 50%;
+    height: 40%;
+}
+
+.phone-img {
+    width: 55%;
+    height: 45%;
+}
+
+.phone-content .new {
+    color: rgb(191, 72, 0);
+    font: 500 15px arial;
+}
+
+.from {
+    font: 400 13px arial;
+    color: black;
+    padding: 10px 0;
+}
+
+.more {
+    padding: 10px 0;
+    gap: 20px;
+    text-align: center;
+    font: 500 16px arial;
+    color: rgb(0, 113, 227);
+}
+
+.more a {
+    gap: 20px;
+    padding: 0 10px;
+}
