@@ -353,6 +353,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 40px 0;
 
 }
 
@@ -420,5 +421,37 @@
 
 .more a {
     gap: 20px;
-    padding: 0 10px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    width: 50%;
+    gap: 10px;
+
+    p {
+        text-align: center;
+        font: 400 13px Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 10px 0;
+        line-height: 15px;
+    }
+}
+
+.features .zoom {
+    font: 600 1.4em Arial;
+}
+
+.features img {
+    width: 25%;
+    height: 25%;
+    padding: 15px 0;
+}
+
+.line {
+    width: 100%;
 }
