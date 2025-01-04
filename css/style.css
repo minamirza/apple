@@ -407,7 +407,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 400 18px Arial;
+    font: 400 16px Arial;
+    padding: 15px 0;
 }
 
 .link {
@@ -504,12 +505,6 @@
     width: 100%;
 }
 
-.save-iphone-head h1 {
-    font: 400 48px Arial;
-    color: black;
-    padding: 35px 0;
-    text-align: center;
-}
 
 .iphone-content {
     display: flex;
@@ -518,37 +513,91 @@
 }
 
 /*save iphone*/
-.iphone-card {
-    width: 250px;
-    height: 300px;
+.save-iphone-head h1 {
+    font: 400 48px Arial;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#save-iphone {
+    width: 100%;
+    height: 90vh;
+    background-color: #f2f2f2;
 }
 
 .saveiphone {
-    height: 100vh;
+    width: 100%;
+    height: 200px;
 }
 
 .applemoji {
-    height: ;
+    width: 38%;
+    height: 30%;
+    padding: 10px 0;
 }
 
 .applephone {
-    width: 40%;
-    height: 35%;
+    width: 48%;
+    height: 55%;
+    padding: 10px 0;
 }
+
 .iphone-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     background-color: white;
-    width: 25%;
-    padding: 20px;
+    width: 28%;
+    height: 65%;
+    padding: 10px;
+    text-align: center;
+
+    h2 {
+        font: 600 20px arial;
+        color: black;
+        width: 80%;
+    }
+
+    p {
+        font: 400 16px arial;
+        color: #6e6e73;
+    }
 }
+
 .cards {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    height: 90vh;
 }
 
-.save-iphone {
-    width: 100%;
-    height: 100vh;
-    background-color: #f2f2f2;
+/*why apple*/
+.whyapple-content {
+    background: url(../img/applebg6.jpeg)center/cover no-repeat;
+    height: 60vh;
+}
+
+.whyapple-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+
+    h2 {
+        font: 600 45px arial;
+        color: black;
+        text-align: center;
+        width: 50%;
+    }
+
+    p {
+        font: 400 16px arial;
+        color: black;
+        width: 50%;
+        padding: 10px 0;
+    }
 }
