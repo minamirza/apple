@@ -98,14 +98,6 @@
     }
 }
 
-.shop-iphone {
-    padding: 10px 0;
-    gap: 20px;
-    text-align: center;
-    font: 500 16px arial;
-    color: rgb(0, 113, 227);
-}
-
 .titanium-content {
     background-color: black;
     display: flex;
@@ -412,16 +404,72 @@
 }
 
 .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 18px Arial;
+}
+
+.link {
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    color: blue;
+    gap: 15px;
+
+    i {
+        margin-left: 10px;
+    }
+}
+
+.link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, yellow, orange, green, blue);
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+/*.more {
     padding: 10px 0;
     gap: 20px;
     text-align: center;
     font: 500 16px arial;
     color: rgb(0, 113, 227);
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+}
+
+.more::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, yellow, orange, green, blue);
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+    transform-origin: center;
+}
+
+.more:hover::after {
+    width: 100%;
 }
 
 .more a {
     gap: 20px;
-}
+}*/
 
 .features {
     display: flex;
@@ -454,4 +502,53 @@
 
 .line {
     width: 100%;
+}
+
+.save-iphone-head h1 {
+    font: 400 48px Arial;
+    color: black;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.iphone-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*save iphone*/
+.iphone-card {
+    width: 250px;
+    height: 300px;
+}
+
+.saveiphone {
+    height: 100vh;
+}
+
+.applemoji {
+    height: ;
+}
+
+.applephone {
+    width: 40%;
+    height: 35%;
+}
+.iphone-card {
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.save-iphone {
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
 }
