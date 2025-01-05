@@ -1254,3 +1254,7 @@ ol {
     padding: 0 20px;
     gap: 20px;
 }
+.myapple a{
+    text-decoration: underline;
+    color: #1e3791;
+}
