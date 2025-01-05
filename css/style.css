@@ -652,7 +652,7 @@
     text-align: center;
     height: 500px;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 .mgsafe-img img {
@@ -666,7 +666,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 50%;
 
     h2 {
         font: 600 38px arial;
@@ -701,7 +701,7 @@
     padding: 50px 0;
     height: 100%;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 .airtag-content {
@@ -748,10 +748,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
     height: 500px;
     width: 80%;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 .magic-content {
@@ -842,6 +842,7 @@
 
 .ioscontent {
     text-align: center;
+    background-color: #fff;
 
     h3 {
         font: 500 50px arial;
@@ -864,6 +865,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .switching-head {
@@ -926,6 +928,7 @@
     font-size: 50px !important;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
 }
 
 .one-content {
@@ -936,6 +939,7 @@
     max-width: 100%;
     height: 90%;
     padding: 50px 0;
+    background-color: #fff;
 }
 
 .one {
@@ -1125,7 +1129,7 @@
     align-items: center;
     justify-content: center;
     width: 44%;
-    height: 100%;
+    max- height: 89%;
     background-color: white;
     text-align: center;
 
@@ -1143,7 +1147,7 @@
 
     img {
         width: 70%;
-        height: 30%;
+        height: 40%;
         margin-top: 50px;
     }
 }
@@ -1153,9 +1157,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    background-color: #fff;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+    padding: 20px 0;
 }
 
 .research-text {
@@ -1210,6 +1215,7 @@ ol {
 .menu-column {
     flex: 1;
     margin: 0 10px;
+    line-height: 25px;
 }
 
 .menu-column h3 {
@@ -1235,7 +1241,7 @@ ol {
 }
 
 .iconft {
-
+    padding: 30px 0;
     gap: 30px;
 }
 
@@ -1254,7 +1260,30 @@ ol {
     padding: 0 20px;
     gap: 20px;
 }
-.myapple a{
+
+.myapple {
+    font: 400 14px Arial;
+    color: #000000BD;
+}
+
+.myapple a {
     text-decoration: underline;
     color: #1e3791;
+}
+
+.fttext p {
+    font: 400 14px Arial;
+    color: #000000BD;
+}
+
+.endtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.bgcolorsections {
+    background-color: #f2f2f2;
 }
