@@ -617,12 +617,10 @@
 
 .magsafe {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     padding: 50px 0;
-    width: 80%;
-    background-color: #f3f3f3;
 }
 
 #magsafe {
@@ -630,13 +628,14 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 100%;
+    height: 500px;
     width: 100%;
+    background-color: #f2f2f2;
 }
 
 .mgsafe-img img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
 
 .mgsafe-content {
@@ -669,8 +668,6 @@
     align-items: center;
     text-align: center;
     padding: 50px 0;
-    width: 80%;
-    background-color: #f3f3f3;
 }
 
 #airtag {
@@ -682,6 +679,7 @@
     padding: 50px 0;
     height: 100%;
     width: 100%;
+    background-color: #f2f2f2;
 }
 
 .airtag-content {
@@ -708,8 +706,8 @@
 }
 
 .airtag-img img {
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
 }
 
 .appple-magic {
@@ -719,8 +717,7 @@
     align-items: center;
     text-align: center;
     padding: 50px 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
 }
 
 #magic {
@@ -730,8 +727,9 @@
     align-items: center;
     text-align: center;
     padding: 50px 0;
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 80%;
+    background-color: #f2f2f2;
 }
 
 .magic-content {
@@ -759,5 +757,37 @@
 
 .magic-img {
     width: 100%;
+    height: 100%;
+}
+
+/*delivery section*/
+#delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 30%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+        font: 600 18px arial;
+        color: black;
+        padding: 25px 0;
+    }
+
+    p {
+        font: 500 16px arial;
+        color: black;
+    }
 }
