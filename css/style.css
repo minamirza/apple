@@ -1201,21 +1201,39 @@ ol {
     }
 }
 
-.icon {
-
-    gap: 30px;
-}
-
-.icon a {
-    font: 40px;
-}
-.ftr-icon {
+.menu-container {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    font: 20px;
+    justify-content: space-around;
+    padding: 20px;
 }
-.ftricon {
-    padding: 0 20px;
-    gap: 20px;
+
+.menu-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.menu-column h3 {
+    font:500 18px Arial;
+    margin-bottom: 10px;
+    color: #000000BD;
+}
+
+.menu-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-column ul li {
+    margin-bottom: 8px;
+}
+
+.menu-column ul li a {
+    text-decoration: none;
+    font:500 14px Arial;
+    margin-bottom: 10px;
+    color: #000000BD;
+}
+
+.menu-column ul li a:hover {
+    text-decoration: underline;
 }
