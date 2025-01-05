@@ -1213,7 +1213,7 @@ ol {
 }
 
 .menu-column h3 {
-    font:500 18px Arial;
+    font: 500 18px Arial;
     margin-bottom: 10px;
     color: #000000BD;
 }
@@ -1224,16 +1224,33 @@ ol {
 }
 
 .menu-column ul li {
-    margin-bottom: 8px;
+    margin-bottom: 10x;
 }
 
 .menu-column ul li a {
     text-decoration: none;
-    font:500 14px Arial;
+    font: 500 14px Arial;
     margin-bottom: 10px;
     color: #000000BD;
 }
 
-.menu-column ul li a:hover {
-    text-decoration: underline;
+.iconft {
+
+    gap: 30px;
+}
+
+.iconft {
+    font: 400 18px Arial;
+}
+
+.iconft {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font: 20px;
+}
+
+.iconft {
+    padding: 0 20px;
+    gap: 20px;
 }
