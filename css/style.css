@@ -38,10 +38,12 @@
     border-bottom: 2px solid black;
 }
 
-.header .nav-icon {
-    font-size: 100%;
-    gap: 20px;
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
 }
+
 
 .header-slider {
     display: flex;
@@ -104,11 +106,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 10px 0;
+    height: 700px;
 }
 
 .titanium-head {
     text-align: center;
+    width: 50%;
+    gap: 10px;
 
     p {
         color: rgb(191, 72, 0);
@@ -126,6 +131,12 @@
     font: 500 16px arial;
     color: white;
     padding: 10px 0;
+}
+
+.tit-bg {
+    background: url("../img/titanium-pc.png")center/contain no-repeat;
+    height: 20vh;
+    width: 70%;
 }
 
 .titanium-content button {
@@ -146,8 +157,8 @@
 }
 
 .tit-tex img {
-    width: 100%;
-    height: 50px;
+    width: 50%;
+    height: 100%;
 }
 
 .titanium-img {
@@ -317,10 +328,11 @@
 
 .applebg12-content {
     position: absolute;
-    top: 45%;
+    top: 0;
     left: 20%;
     width: 300px;
     height: 100px;
+    padding-top: 50%;
 
     p {
         font: 600 25px Arial;
@@ -364,11 +376,9 @@
 
 #phonecard {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 40px 0;
-
 }
 
 .phonecard {
@@ -402,11 +412,6 @@
     align-items: center;
     padding: 10px 0;
     gap: 15px;
-}
-
-.color-img1 {
-    width: 50%;
-    height: 40%;
 }
 
 .phone-img {
@@ -542,15 +547,9 @@
     padding-top: 30px;
 }
 
-#save-iphone {
-    width: 100%;
-    height: 90vh;
-    background-color: #f2f2f2;
-}
-
 .saveiphone {
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 .applemoji {
@@ -593,13 +592,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 90vh;
+    height: 100%;
 }
 
 /*why apple*/
-.whyapple-content {
-    background: url(../img/applebg6.jpeg)center/cover no-repeat;
+.whyapple {
+    background: url("../img/applebg6.jpeg")center/cover no-repeat;
     height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .whyapple-content {
@@ -607,7 +611,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 20px 0;
 
     h2 {
         font: 600 45px arial;
@@ -777,9 +781,9 @@
     }
 }
 
-.magic-img {
+.magic-img img {
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 /*delivery section*/
@@ -892,8 +896,8 @@
 }
 
 .switching-img img {
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .privacy {
@@ -915,6 +919,7 @@
     position: absolute;
     top: 10.5%;
     width: 100%;
+    text-align: center;
 }
 
 .privacy-head {
@@ -1129,7 +1134,7 @@
     align-items: center;
     justify-content: center;
     width: 44%;
-    max- height: 89%;
+    max-height: 89%;
     background-color: white;
     text-align: center;
 
@@ -1172,7 +1177,7 @@
     h2 {
         font: 700 50px arial;
         padding: 25px 0;
-        line-height: 24px;
+        line-height: 50px;
         color: black;
     }
 
@@ -1212,10 +1217,55 @@ ol {
     padding: 20px;
 }
 
+.header-for-mobil {
+    display: none;
+}
+
+.accordion {
+    display: none;
+}
+
 .menu-column {
+    display: block;
+}
+
+.accordion-body {
     flex: 1;
     margin: 0 10px;
     line-height: 25px;
+}
+
+.accordion-body h3 {
+    font: 500 18px Arial;
+    margin-bottom: 10px;
+    color: #000000BD;
+}
+
+.accordion-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.accordion-body ul li {
+    margin-bottom: 10x;
+}
+
+.accordion-body ul li a {
+    text-decoration: none;
+    font: 500 14px Arial;
+    margin-bottom: 10px;
+    color: #000000BD;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-column {
+    flex: 1;
+    margin: 0 10px;
 }
 
 .menu-column h3 {
@@ -1230,7 +1280,7 @@ ol {
 }
 
 .menu-column ul li {
-    margin-bottom: 10x;
+    margin-bottom: 8px;
 }
 
 .menu-column ul li a {
@@ -1238,6 +1288,10 @@ ol {
     font: 500 14px Arial;
     margin-bottom: 10px;
     color: #000000BD;
+}
+
+.menu-column ul li a:hover {
+    text-decoration: underline;
 }
 
 .iconft {
@@ -1286,4 +1340,148 @@ ol {
 
 .bgcolorsections {
     background-color: #f2f2f2;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font: 550 11px arial;
+    color: black;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.header .nav-icon {
+    font-size: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.iconft {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iconft div {
+    margin-right: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-column {
+    width: 18%;
+    padding: 10px;
+}
+
+.menu-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-column li {
+    margin-bottom: 8px;
+}
+
+.menu-column a {
+    text-decoration: none;
+    color: #333;
+}
+
+.myapple {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.moreway {
+    text-decoration: none;
+    color: #0071e3;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.endtext {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.fttext {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+
+#about {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
