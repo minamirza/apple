@@ -328,11 +328,10 @@
 
 .applebg12-content {
     position: absolute;
-    top: 0;
-    left: 20%;
+    top: 50%;
+    left: 90px;
     width: 300px;
-    height: 100px;
-    padding-top: 50%;
+    height: 100px; 
 
     p {
         font: 600 25px Arial;
